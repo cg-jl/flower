@@ -26,7 +26,14 @@ Make sure you have installed:
 
 
 Now go to the root directory and run `wasm-pack build`, then go to `www` folder
-and run `npm start`. This will start a server on localhost, copy the address and
+and run `npm install`. 
+
+To run, go to `www` folder and run:
+```sh
+NODE_OPTIONS=--openssl-legacy-provider npm start
+```
+
+This will start a server on localhost, copy the address and
 paste it into your browser! The main javascript file is `www/index.js` and
 everything Rust is `src/lib.rs`. Have fun!
 
