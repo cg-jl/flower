@@ -20,8 +20,9 @@ every frame, making sure they don't go off.
 # Building and running
 
 Make sure you have installed:
-    - `wasm-pack` [link to download website](https://rustwasm.github.io/wasm-pack/)
-    - `npm` [link to download website](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm). I'm using node version `18.12.1` with npm `8.19.2`, if anything fails when trying to start the server you could remove possibilities by using these versions.
+
+- `wasm-pack` [link to download website](https://rustwasm.github.io/wasm-pack/)
+- `npm` [link to download website](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm). I'm using node version `18.12.1` with npm `8.19.2`, if anything fails when trying to start the server you could remove possibilities by using these versions.
 
 
 Now go to the root directory and run `wasm-pack build`, then go to `www` folder
